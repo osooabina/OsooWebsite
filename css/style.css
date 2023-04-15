@@ -1,0 +1,87 @@
+.menu{
+  border-bottom: 1px solid #000;
+  padding-bottom: 30px;
+  margin-bottom: 10px; /* creates 10 pixels of space between menu items */
+}
+.menu {
+  display: flex;
+  justify-content: center; /* center the items horizontally */
+}
+
+.menu ul {
+  list-style-type: none; /* remove the default bullet points */
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  display: inline-block;
+  margin: 0 10px; /* add some spacing between the items */
+}
+
+.contact {
+  text-align: center;
+}
+.banner{
+  font-size: 30px;
+  background-color: #fff;
+  padding: 100px;
+  text-align: center;
+}
+.social-links {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 30px;
+  }
+
+social-links li {
+    margin: 0 10px;
+  }
+
+.social-links li:first-child {
+    margin-left: 0;
+  }
+
+.social-links li:last-child {
+    margin-right: 0;
+  }
+.social-links a {
+    text-decoration: none;
+  }
+
+.banner-text {
+  text-align: center;
+}
+
+.banner-close {
+  background-color: #eee;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.banner-close-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner-close-close {
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+}
+
+.banner-close-close:hover {
+  text-decoration: underline;
+}
+
+
+#index {
+  background-color: #ccc;
+}
+
+
+#contact {
+  background-color: #ccc;
+}
