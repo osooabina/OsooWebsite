@@ -2,46 +2,72 @@
   border-bottom: 1px solid #000;
   padding-bottom: 30px;
   margin-bottom: 10px; /* creates 10 pixels of space between menu items */
+<<<<<<< HEAD
   color: white;
+=======
+>>>>>>> 556154dc08899d68cde52b2f1365dfee98a353ef
 }
 .menu {
   display: flex;
   justify-content: center; /* center the items horizontally */
+<<<<<<< HEAD
   color: white;
+=======
+>>>>>>> 556154dc08899d68cde52b2f1365dfee98a353ef
 }
 
 .menu ul {
   list-style-type: none; /* remove the default bullet points */
   margin: 0;
   padding: 0;
+<<<<<<< HEAD
   color: white;
+=======
+>>>>>>> 556154dc08899d68cde52b2f1365dfee98a353ef
 }
 
 .menu li {
   display: inline-block;
   margin: 0 10px; /* add some spacing between the items */
+<<<<<<< HEAD
   color: white;
 }
+=======
+}
+
+>>>>>>> 556154dc08899d68cde52b2f1365dfee98a353ef
 .contact {
   text-align: center;
 }
 .banner{
   font-size: 30px;
+<<<<<<< HEAD
   padding: 20px;
   text-align: center;
   color: white;
+=======
+  background-color: #fff;
+  padding: 100px;
+  text-align: center;
+>>>>>>> 556154dc08899d68cde52b2f1365dfee98a353ef
 }
 .social-links {
     display: flex;
     justify-content: center;
     list-style: none;
     padding: 30px;
+<<<<<<< HEAD
     color: white;
+=======
+>>>>>>> 556154dc08899d68cde52b2f1365dfee98a353ef
   }
 
 social-links li {
     margin: 0 10px;
+<<<<<<< HEAD
     color: white;
+=======
+>>>>>>> 556154dc08899d68cde52b2f1365dfee98a353ef
   }
 
 .social-links li:first-child {
@@ -58,6 +84,7 @@ social-links li {
 .banner-text {
   text-align: center;
 }
+<<<<<<< HEAD
 .banner-close {
   padding: 10px;
   margin-bottom: 20px;
@@ -67,6 +94,13 @@ social-links li {
   right: 10px;
   color: white;
 }
+=======
+
+.banner-close {
+  background-color: #eee;
+  padding: 10px;
+  margin-bottom: 20px;
+>>>>>>> 556154dc08899d68cde52b2f1365dfee98a353ef
 }
 
 .banner-close-text {
@@ -80,6 +114,7 @@ social-links li {
   color: #333;
   text-decoration: none;
 }
+<<<<<<< HEAD
 .profile{
   text-align: center;
 }
@@ -104,4 +139,9 @@ social-links li {
 }
 .whatsapp {
   text-align: right;
+=======
+
+.banner-close-close:hover {
+  text-decoration: underline;
+>>>>>>> 556154dc08899d68cde52b2f1365dfee98a353ef
 }
