@@ -2,41 +2,46 @@
   border-bottom: 1px solid #000;
   padding-bottom: 30px;
   margin-bottom: 10px; /* creates 10 pixels of space between menu items */
+  color: white;
 }
 .menu {
   display: flex;
   justify-content: center; /* center the items horizontally */
+  color: white;
 }
 
 .menu ul {
   list-style-type: none; /* remove the default bullet points */
   margin: 0;
   padding: 0;
+  color: white;
 }
 
 .menu li {
   display: inline-block;
   margin: 0 10px; /* add some spacing between the items */
+  color: white;
 }
-
 .contact {
   text-align: center;
 }
 .banner{
   font-size: 30px;
-  background-color: #fff;
-  padding: 100px;
+  padding: 20px;
   text-align: center;
+  color: white;
 }
 .social-links {
     display: flex;
     justify-content: center;
     list-style: none;
     padding: 30px;
+    color: white;
   }
 
 social-links li {
     margin: 0 10px;
+    color: white;
   }
 
 .social-links li:first-child {
@@ -53,11 +58,15 @@ social-links li {
 .banner-text {
   text-align: center;
 }
-
 .banner-close {
-  background-color: #eee;
   padding: 10px;
   margin-bottom: 20px;
+  font-size: 20px;
+  text-decoration: none;
+  top: 10px;
+  right: 10px;
+  color: white;
+}
 }
 
 .banner-close-text {
@@ -71,17 +80,28 @@ social-links li {
   color: #333;
   text-decoration: none;
 }
-
-.banner-close-close:hover {
-  text-decoration: underline;
+.profile{
+  text-align: center;
 }
 
+.column-profile {
+  width: 40%;
+  float: left;
 
-#index {
-  background-color: #ccc;
 }
 
+}
+.row about-content{
+  float: right;
+}
+.column-skills{
+  width: 40%;
+  float: left;
 
-#contact {
-  background-color: #ccc;
+}
+.row section-intro{
+  text-align: center;
+}
+.whatsapp {
+  text-align: right;
 }
